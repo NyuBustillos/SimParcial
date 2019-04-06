@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace MVCparcial.Models
+namespace APIparcial.Models
 {
     public class DataContext:DbContext
     {
@@ -8,6 +8,7 @@ namespace MVCparcial.Models
         {
 
         }
-        public System.Data.Entity.DbSet<MVCparcial.Models.Product> Products { get; set; }
+
+        public System.Data.Entity.DbSet<APIparcial.Models.Product> Products { get; set; }
     }
 }
